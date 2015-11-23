@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Suprise! Happy birthday.</title>
+  <link rel="stylesheet" href="./font/liana.css">
+  <link rel="stylesheet" href="./font/pen.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      font-size: 16px;
+    }
+    .card {
+      position: relative;
+      width: 948px;
+      height: 436px;
+      margin: 100px auto 0;
+      box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    }
+    .card1,
+    .card2 {
+      float: left;
+      width: 474px;
+      height: 100%;
+      padding: 20px 60px;
+      box-sizing: border-box;
+    }
+    .card1 {
+      background-image: url(./card1.jpg);
+    }
+    .card2 {
+      background-image: url(./card2.jpg);
+    }
+    .separator {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      width: 130px;
+      height: 436px;
+      margin-left: -65px;
+      background-image: url(./separator.png);
+      z-index: 10;
+    }
+    h1 {
+      font-size: 40px;
+      margin: 20px 0 25px;
+    }
+    p {
+      font-size: 22px;
+      font-family: pen;
+      line-height: 2;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    .en {
+      font-family: liana;
+    }
+    p.l2 {
+      text-indent: 2em;
+    }
+    .card1 p {
+      letter-spacing: 2px;
+    }
+    .card2 p {
+      line-height: 1.6;
+    }
+    .happy,
+    .birthday {
+      float: right;
+    }
+  </style>
+</head>
+<body>
+<div class="card">
+  <div class="card1">
+    <h1 class="en">Suprise!</h1>
+    <p class="l2">简单的生日快乐不知能否承载我们满满的祝福。在这特别的日子祝愿特别的你幸福快乐！</p>
+    <p class="en happy">Happy<br/>Birthday</p>
+  </div>
+  <div class="separator"></div>
+  <div class="card2">
+    <h1>XXX：</h1>
+    <p class="l2">自从来到智精灵这个大家庭，我们看到了你的默默付出；我们感受到了你的时时关心；更是体会到了你的用心坚守。</p>
+    <p class="l2">点燃生日的烛光，接受我们最好的祝愿：</p>
+    <p class="l2">生日快乐！XXX</p>
+    <p class="l2">您辛苦了！</p>
+    <div class="cake"></div>
+  </div>
+</div>
+</body>
+</html>
